@@ -1,2 +1,2 @@
-# Facial recognition code
+# Facial recognition
 
