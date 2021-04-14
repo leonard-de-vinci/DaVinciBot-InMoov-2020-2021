@@ -1,0 +1,9 @@
+tensorflow
+urllib
+opencv-python
+json numpy
+Thread
+alive_progress
+imutils
+curses
+pysqlite3
