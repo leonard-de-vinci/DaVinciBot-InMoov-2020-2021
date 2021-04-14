@@ -1,0 +1,2 @@
+set(api_MESSAGE_FILES "/home/flavien/inmoov_python3_ws/devel/share/api/msg/MoveAction.msg;/home/flavien/inmoov_python3_ws/devel/share/api/msg/MoveActionGoal.msg;/home/flavien/inmoov_python3_ws/devel/share/api/msg/MoveActionResult.msg;/home/flavien/inmoov_python3_ws/devel/share/api/msg/MoveActionFeedback.msg;/home/flavien/inmoov_python3_ws/devel/share/api/msg/MoveGoal.msg;/home/flavien/inmoov_python3_ws/devel/share/api/msg/MoveResult.msg;/home/flavien/inmoov_python3_ws/devel/share/api/msg/MoveFeedback.msg")
+set(api_SERVICE_FILES "")

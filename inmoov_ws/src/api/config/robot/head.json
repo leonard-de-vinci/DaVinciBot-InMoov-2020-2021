@@ -1,0 +1,60 @@
+{
+	"robot": {
+		"head": {
+			"neck": {
+				"translation": {
+					"servo": {
+						"pinPWM": 12,
+						"angle": {
+							"control": 130,
+							"min": 60,
+							"max": 180
+						}
+					}
+				},
+				"rotation": {
+					"servo": {
+						"pinPWM": 13,
+						"angle": {
+							"control": 102,
+							"min": 50,
+							"max": 160
+						}
+					}
+				}
+			},
+			"mouth": {
+				"servo": {
+					"pinPWM": 26,
+					"angle": {
+						"control": 0,
+						"min": 45,
+						"max": 105
+					}
+				}
+			},
+			"eye": {
+				"left": {
+					"servo": {
+						"pinPWM": 22,
+						"angle": {
+							"control": 0,
+							"min": 90,
+							"max": 150
+						}
+					}
+				},
+				"right": {
+					"servo": {
+						"pinPWM": 24,
+						"angle": {
+							"control": 0,
+							"min": 85,
+							"max": 130
+						}
+					}
+				}
+			}
+		}
+	}
+}

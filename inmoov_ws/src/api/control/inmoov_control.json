@@ -1,0 +1,139 @@
+{
+    "robot": {
+        "head": {
+            "mouth": {
+                "servo": {
+                    "angle": 55
+                }
+            }, 
+            "eye": {
+                "right": {
+                    "servo": {
+                        "angle": 99
+                    }
+                }, 
+                "left": {
+                    "servo": {
+                        "angle": 0
+                    }
+                }
+            }, 
+            "neck": {
+                "translation": {
+                    "servo": {
+                        "angle": 0
+                    }
+                }, 
+                "rotation": {
+                    "servo": {
+                        "angle": 0
+                    }
+                }
+            }
+        }, 
+        "arm": {
+            "right": {
+                "shoulder": {
+                    "servo": {
+                        "angle": 0
+                    }
+                }, 
+                "scapula": {
+                    "servo": {
+                        "angle": 0
+                    }
+                }, 
+                "muscle": {
+                    "servo": {
+                        "angle": 150
+                    }
+                }, 
+                "hand": {
+                    "wirst": {
+                        "servo": {
+                            "angle": 0
+                        }
+                    }, 
+                    "finger": {
+                        "middle": {
+                            "servo": {
+                                "angle": 0
+                            }
+                        }, 
+                        "ring": {
+                            "servo": {
+                                "angle": 0
+                            }
+                        }, 
+                        "pointer": {
+                            "servo": {
+                                "angle": 0
+                            }
+                        }, 
+                        "little": {
+                            "servo": {
+                                "angle": 0
+                            }
+                        }, 
+                        "thumb": {
+                            "servo": {
+                                "angle": 0
+                            }
+                        }
+                    }
+                }
+            }, 
+            "left": {
+                "shoulder": {
+                    "servo": {
+                        "angle": 0
+                    }
+                }, 
+                "scapula": {
+                    "servo": {
+                        "angle": 0
+                    }
+                }, 
+                "muscle": {
+                    "servo": {
+                        "angle": 90
+                    }
+                }, 
+                "hand": {
+                    "wirst": {
+                        "servo": {
+                            "angle": 0
+                        }
+                    }, 
+                    "finger": {
+                        "middle": {
+                            "servo": {
+                                "angle": 0
+                            }
+                        }, 
+                        "ring": {
+                            "servo": {
+                                "angle": 0
+                            }
+                        }, 
+                        "pointer": {
+                            "servo": {
+                                "angle": 0
+                            }
+                        }, 
+                        "little": {
+                            "servo": {
+                                "angle": 0
+                            }
+                        }, 
+                        "thumb": {
+                            "servo": {
+                                "angle": 0
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

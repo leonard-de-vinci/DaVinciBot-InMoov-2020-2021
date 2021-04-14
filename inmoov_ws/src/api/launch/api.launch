@@ -1,0 +1,3 @@
+<launch>
+ <node name="api" pkg="api" type="api_serveur.py" output="screen"/>
+</launch>

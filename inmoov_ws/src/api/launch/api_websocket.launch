@@ -1,0 +1,4 @@
+<launch>
+ <node name="api" pkg="api" type="api_serveur.py" output="screen"/>
+ <node name="websocket_server" pkg="api" type="websocket_serveur.py" output="screen"/>
+</launch>

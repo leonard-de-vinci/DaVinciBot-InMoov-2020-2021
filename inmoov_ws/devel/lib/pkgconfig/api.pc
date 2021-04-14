@@ -1,0 +1,8 @@
+prefix=/home/flavien/inmoov_python3_ws/devel
+
+Name: api
+Description: Description of api
+Version: 0.0.0
+Cflags: -I/home/flavien/inmoov_python3_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: actionlib_msgs roscpp rospy std_msgs

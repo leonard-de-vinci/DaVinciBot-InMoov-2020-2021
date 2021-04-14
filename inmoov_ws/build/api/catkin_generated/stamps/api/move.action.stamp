@@ -1,0 +1,8 @@
+#goal
+string[] request
+---
+#result
+uint32 result
+---
+#feedback
+bool feedback

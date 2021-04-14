@@ -1,0 +1,8 @@
+prefix=/home/flavien/inmoov_python3_ws/install
+
+Name: time_display
+Description: Description of time_display
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
