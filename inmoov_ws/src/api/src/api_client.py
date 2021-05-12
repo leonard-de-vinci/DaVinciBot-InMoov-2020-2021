@@ -82,4 +82,5 @@ if __name__ == '__main__':
         goal = api.msg.MoveGoal(order=order)
         client.send_goal(goal)
         client.wait_for_result()
-        return client.get_result()"""
+        return client.get_result()
+	test"""
