@@ -1,15 +1,14 @@
 
-
 # DaVinciBot InMoov 2020-2021
 **ROS serial for ESP8266 through WiFi integrated on InMoov**
 ```
 2021 Flavien Deseure & Wim Poignon (https://github.com/leonard-de-vinci/DaVinciBot-InMoov-2020-2021) 
 ```
-This is an adaptation of ROS-serial-arduino to run on an the ESP8266, a small and efficient chip, with WiFi instead of wired USB UART cable, based on http://answers.ros.org/users/1034/ahendrix/ proposed solution for Arduino with WiFi shield.
+This is an adaptation of ROS-serial-arduino to run on the ESP8266, a small and efficient chip, with WiFi instead of wired USB UART cable, based on http://answers.ros.org/users/1034/ahendrix/ proposed solution for Arduino with WiFi shield.
 
-There are multiple reasons to use the ESP8266 (or ESP32) chip instead of a standard Arduino - especially with Robotic Operating System.
-
-ESP8266 is a cost-effective and highly integrated Wi-Fi MCU for IoT applications, with a better flash memory compared to Arduino Uno (4MB vs. 32 KB). 
+**ESP8266 NodeMCU board**
+There are multiple reasons to use the ESP8266 (or ESP32) chip instead of a standard Arduino. It begins with the size and the memory.
+The ESP8266 is a cost-effective and highly integrated Wi-Fi MCU for IoT applications, with a better flash memory compared to Arduino Uno (4MB vs. 32 KB). Moreover, you can load new firmware to the board using a Wi-Fi connection rather than serial communication.
 **Platformio**
 
 **Connection between ESP and ROS**
