@@ -10,7 +10,7 @@ This is an adaptation of ROS-serial-arduino to run on the ESP8266, a small and e
 There are multiple reasons to use the ESP8266 (or ESP32) chip instead of a standard Arduino. It begins with the size and the memory.
 The ESP8266 is a cost-effective and highly integrated Wi-Fi MCU for IoT applications, with a better flash memory compared to Arduino Uno (4MB vs. 32 KB). Moreover, you can load new firmware to the board using a Wi-Fi connection rather than serial communication.
 **Platformio**
-
+For this projet, we are using PlatformIO IDE on Visual Studio Code for coding the Wifi microchip. PlatformIO is a professional tool for embedded systems engineers, where we can have a lot of Freedom. 
 **Connection between ESP and ROS**
 
 This Esp8266 sketch creates a Car (similar to turtlebot) with all basic ROS objects, that connect via "WiFi" with rosserial in the server. 
