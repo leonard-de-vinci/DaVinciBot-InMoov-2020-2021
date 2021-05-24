@@ -7,12 +7,18 @@
 This is an adaptation of ROS-serial-arduino to run on the ESP8266, a small and efficient chip, with WiFi instead of wired USB UART cable, based on http://answers.ros.org/users/1034/ahendrix/ proposed solution for Arduino with WiFi shield.
 
 **ESP8266 NodeMCU board**
+
 There are multiple reasons to use the ESP8266 (or ESP32) chip instead of a standard Arduino. It begins with the size and the memory.
-The ESP8266 is a cost-effective and highly integrated Wi-Fi MCU for IoT applications, with a better flash memory compared to Arduino Uno (4MB vs. 32 KB). Moreover, you can load new firmware to the board using a Wi-Fi connection rather than serial communication.
+The ESP8266 is a cost-effective and highly integrated Wi-Fi MCU for IoT applications, with a better flash memory compared to Arduino Uno (4MB vs. 32 KB). Moreover, you can load new firmware to the board using a Wi-Fi connection rather than serial communication, called Over-The-Air (OTA) Programming.
 
 **Platformio**
 
-For this projet, we are using PlatformIO IDE on Visual Studio Code for coding the Wifi microchip. PlatformIO is a professional tool for embedded systems engineers, where we can have a lot of Freedom. 
+For this projet, we are using PlatformIO IDE on Visual Studio Code for coding the Wifi microchip. PlatformIO is a professional tool for embedded systems engineers, where we can have a lot of Freedom.
+After creating a new projet with the correct board (ESP8266), you have to install rosserial via your PlatformIO Terminal :
+```
+pio lib install "enwaytech/ros_lib Arduino"
+```
+
 **Connection between ESP and ROS**
 
 This Esp8266 sketch creates a Car (similar to turtlebot) with all basic ROS objects, that connect via "WiFi" with rosserial in the server. 
