@@ -14,7 +14,8 @@ On Jetson TX2:
 - ```ifconfig -a``` and search for the inet address
 
 On your computer:
-- ```ssh inmoov@<ipaddress>``` to access to the Jetson
+- ```ssh inmoov@<ipaddress>``` to access to the Jetson (in general the Jetson IPAdresse is : 172.21.72.156)
+If you want to exit the session, type ```exit``` 
  
 **ESP8266 NodeMCU board**
 
