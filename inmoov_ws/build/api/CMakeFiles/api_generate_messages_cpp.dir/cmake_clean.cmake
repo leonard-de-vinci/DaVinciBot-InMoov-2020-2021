@@ -1,12 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/api_generate_messages_cpp"
-  "/home/flavien/inmoov_python3_ws/devel/include/api/MoveAction.h"
-  "/home/flavien/inmoov_python3_ws/devel/include/api/MoveActionGoal.h"
-  "/home/flavien/inmoov_python3_ws/devel/include/api/MoveActionResult.h"
-  "/home/flavien/inmoov_python3_ws/devel/include/api/MoveActionFeedback.h"
-  "/home/flavien/inmoov_python3_ws/devel/include/api/MoveGoal.h"
-  "/home/flavien/inmoov_python3_ws/devel/include/api/MoveResult.h"
-  "/home/flavien/inmoov_python3_ws/devel/include/api/MoveFeedback.h"
+  "/home/inmoov/Desktop/DaVinciBot-InMoov-2020-2021/inmoov_ws/devel/include/api/MoveResult.h"
+  "/home/inmoov/Desktop/DaVinciBot-InMoov-2020-2021/inmoov_ws/devel/include/api/MoveActionGoal.h"
+  "/home/inmoov/Desktop/DaVinciBot-InMoov-2020-2021/inmoov_ws/devel/include/api/MoveAction.h"
+  "/home/inmoov/Desktop/DaVinciBot-InMoov-2020-2021/inmoov_ws/devel/include/api/MoveActionFeedback.h"
+  "/home/inmoov/Desktop/DaVinciBot-InMoov-2020-2021/inmoov_ws/devel/include/api/MoveFeedback.h"
+  "/home/inmoov/Desktop/DaVinciBot-InMoov-2020-2021/inmoov_ws/devel/include/api/MoveGoal.h"
+  "/home/inmoov/Desktop/DaVinciBot-InMoov-2020-2021/inmoov_ws/devel/include/api/MoveActionResult.h"
 )
 
 # Per-language clean rules from dependency scanning.

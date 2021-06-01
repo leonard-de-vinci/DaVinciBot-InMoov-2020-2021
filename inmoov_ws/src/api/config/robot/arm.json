@@ -6,19 +6,9 @@
 					"servo": {
 						"pinPWM": 10,
 						"angle": {
-							"control": 87,
-							"min": 67,
-							"max": 160
-						}
-					}
-				},
-				"rotate": {
-					"servo": {
-						"pinPWM": 9,
-						"angle": {
-							"control": 100,
-							"min": 80,
-							"max": 140
+							"control": 0,
+							"min": 12,
+							"max": 50
 						}
 					}
 				},
@@ -36,9 +26,9 @@
 					"servo": {
 						"pinPWM": 11,
 						"angle": {
-							"control": 5,
-							"min": -5,
-							"max": 45
+							"control": 0,
+							"min": 70,
+							"max": 160
 						}
 					}
 				},
@@ -47,9 +37,9 @@
 						"servo": {
 							"pinPWM": 7,
 							"angle": {
-								"control": -130,
-								"min": 0,
-								"max": 130
+								"control": 0,
+								"min": 40,
+								"max": 140
 							}
 						}
 					},
@@ -58,9 +48,9 @@
 							"servo": {
 								"pinPWM": 2,
 								"angle": {
-									"control": 150,
-									"min": 0,
-									"max": 150
+									"control": 0,
+									"min": 36,
+									"max": 135
 								}
 							}
 						},
@@ -68,9 +58,9 @@
 							"servo": {
 								"pinPWM": 3,
 								"angle": {
-									"control": 150,
-									"min": 0,
-									"max": 150
+									"control": 0,
+									"min": 30,
+									"max": 137
 								}
 							}
 						},
@@ -79,7 +69,7 @@
 								"pinPWM": 4,
 								"angle": {
 									"control": 0,
-									"min": 0,
+									"min": 20,
 									"max": 140
 								}
 							}
@@ -89,8 +79,8 @@
 								"pinPWM": 5,
 								"angle": {
 									"control": 0,
-									"min": 0,
-									"max": 130
+									"min": 40,
+									"max": 150
 								}
 							}
 						},
@@ -98,9 +88,9 @@
 							"servo": {
 								"pinPWM": 6,
 								"angle": {
-									"control": 150,
-									"min": 40,
-									"max": 150
+									"control": 0,
+									"min": 30,
+									"max": 145
 								}
 							}
 						}
@@ -115,16 +105,6 @@
 							"control": 0,
 							"min": 16,
 							"max": 50
-						}
-					}
-				},
-				"rotate": {
-					"servo": {
-						"pinPWM": 9,
-						"angle": {
-							"control": 0,
-							"min": 0,
-							"max": 0
 						}
 					}
 				},
@@ -153,9 +133,9 @@
 						"servo": {
 							"pinPWM": 7,
 							"angle": {
-								"control": 150,
+								"control": 0,
 								"min": 0,
-								"max": 150
+								"max": 0
 							}
 						}
 					},
@@ -165,8 +145,8 @@
 								"pinPWM": 2,
 								"angle": {
 									"control": 0,
-									"min": 0,
-									"max": 145
+									"min": 30,
+									"max": 140
 								}
 							}
 						},
@@ -175,8 +155,8 @@
 								"pinPWM": 3,
 								"angle": {
 									"control": 0,
-									"min": 0,
-									"max": 150
+									"min": 30,
+									"max": 130
 								}
 							}
 						},
@@ -185,8 +165,8 @@
 								"pinPWM": 4,
 								"angle": {
 									"control": 0,
-									"min": 0,
-									"max": 150
+									"min": 30,
+									"max": 140
 								}
 							}
 						},
@@ -195,8 +175,8 @@
 								"pinPWM": 5,
 								"angle": {
 									"control": 0,
-									"min": 0,
-									"max": 130
+									"min": 30,
+									"max": 150
 								}
 							}
 						},
@@ -205,8 +185,8 @@
 								"pinPWM": 6,
 								"angle": {
 									"control": 0,
-									"min": 0,
-									"max": 150
+									"min": 30,
+									"max": 140
 								}
 							}
 						}

@@ -6,9 +6,9 @@
 					"servo": {
 						"pinPWM": 12,
 						"angle": {
-							"control": 130,
-							"min": 60,
-							"max": 180
+							"control": 0,
+							"min": 70,
+							"max": 160
 						}
 					}
 				},
@@ -16,9 +16,9 @@
 					"servo": {
 						"pinPWM": 13,
 						"angle": {
-							"control": 102,
-							"min": 50,
-							"max": 160
+							"control": 0,
+							"min": 45,
+							"max": 170
 						}
 					}
 				}

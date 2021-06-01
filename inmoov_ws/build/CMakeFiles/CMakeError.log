@@ -1,24 +1,25 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/flavien/inmoov_python3_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/inmoov/Desktop/DaVinciBot-InMoov-2020-2021/inmoov_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3f493/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3f493.dir/build.make CMakeFiles/cmTC_3f493.dir/build
-make[1] : on entre dans le répertoire « /home/flavien/inmoov_python3_ws/build/CMakeFiles/CMakeTmp »
-Building C object CMakeFiles/cmTC_3f493.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_3f493.dir/CheckSymbolExists.c.o   -c /home/flavien/inmoov_python3_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_3f493
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f493.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3f493.dir/CheckSymbolExists.c.o  -o cmTC_3f493 
-CMakeFiles/cmTC_3f493.dir/CheckSymbolExists.c.o : Dans la fonction « main » :
-CheckSymbolExists.c:(.text+0x1b) : référence indéfinie vers « pthread_create »
+Run Build Command:"/usr/bin/make" "cmTC_8b970/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8b970.dir/build.make CMakeFiles/cmTC_8b970.dir/build
+make[1]: Entering directory '/home/inmoov/Desktop/DaVinciBot-InMoov-2020-2021/inmoov_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8b970.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8b970.dir/CheckSymbolExists.c.o   -c /home/inmoov/Desktop/DaVinciBot-InMoov-2020-2021/inmoov_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_8b970
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b970.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8b970.dir/CheckSymbolExists.c.o  -o cmTC_8b970 
+CMakeFiles/cmTC_8b970.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x14): undefined reference to `pthread_create'
+CheckSymbolExists.c:(.text+0x18): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_3f493.dir/build.make:97: recipe for target 'cmTC_3f493' failed
-make[1]: *** [cmTC_3f493] Error 1
-make[1] : on quitte le répertoire « /home/flavien/inmoov_python3_ws/build/CMakeFiles/CMakeTmp »
-Makefile:126: recipe for target 'cmTC_3f493/fast' failed
-make: *** [cmTC_3f493/fast] Error 2
+CMakeFiles/cmTC_8b970.dir/build.make:97: recipe for target 'cmTC_8b970' failed
+make[1]: *** [cmTC_8b970] Error 1
+make[1]: Leaving directory '/home/inmoov/Desktop/DaVinciBot-InMoov-2020-2021/inmoov_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8b970/fast' failed
+make: *** [cmTC_8b970/fast] Error 2
 
-File /home/flavien/inmoov_python3_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/inmoov/Desktop/DaVinciBot-InMoov-2020-2021/inmoov_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +35,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/flavien/inmoov_python3_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/inmoov/Desktop/DaVinciBot-InMoov-2020-2021/inmoov_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c5a90/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c5a90.dir/build.make CMakeFiles/cmTC_c5a90.dir/build
-make[1] : on entre dans le répertoire « /home/flavien/inmoov_python3_ws/build/CMakeFiles/CMakeTmp »
-Building C object CMakeFiles/cmTC_c5a90.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c5a90.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_c5a90
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5a90.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_c5a90.dir/CheckFunctionExists.c.o  -o cmTC_c5a90 -lpthreads 
-/usr/bin/ld : ne peut trouver -lpthreads
+Run Build Command:"/usr/bin/make" "cmTC_d691a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d691a.dir/build.make CMakeFiles/cmTC_d691a.dir/build
+make[1]: Entering directory '/home/inmoov/Desktop/DaVinciBot-InMoov-2020-2021/inmoov_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d691a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_d691a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d691a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d691a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_d691a.dir/CheckFunctionExists.c.o  -o cmTC_d691a -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_c5a90.dir/build.make:97: recipe for target 'cmTC_c5a90' failed
-make[1]: *** [cmTC_c5a90] Error 1
-make[1] : on quitte le répertoire « /home/flavien/inmoov_python3_ws/build/CMakeFiles/CMakeTmp »
-Makefile:126: recipe for target 'cmTC_c5a90/fast' failed
-make: *** [cmTC_c5a90/fast] Error 2
+CMakeFiles/cmTC_d691a.dir/build.make:97: recipe for target 'cmTC_d691a' failed
+make[1]: *** [cmTC_d691a] Error 1
+make[1]: Leaving directory '/home/inmoov/Desktop/DaVinciBot-InMoov-2020-2021/inmoov_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d691a/fast' failed
+make: *** [cmTC_d691a/fast] Error 2
 
 

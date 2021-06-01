@@ -67,14 +67,14 @@ set(api_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(api_SOURCE_PREFIX /home/flavien/inmoov_python3_ws/src/api)
-  set(api_DEVEL_PREFIX /home/flavien/inmoov_python3_ws/devel)
+  set(api_SOURCE_PREFIX /home/inmoov/Desktop/DaVinciBot-InMoov-2020-2021/inmoov_ws/src/api)
+  set(api_DEVEL_PREFIX /home/inmoov/Desktop/DaVinciBot-InMoov-2020-2021/inmoov_ws/devel)
   set(api_INSTALL_PREFIX "")
   set(api_PREFIX ${api_DEVEL_PREFIX})
 else()
   set(api_SOURCE_PREFIX "")
   set(api_DEVEL_PREFIX "")
-  set(api_INSTALL_PREFIX /home/flavien/inmoov_python3_ws/install)
+  set(api_INSTALL_PREFIX /home/inmoov/Desktop/DaVinciBot-InMoov-2020-2021/inmoov_ws/install)
   set(api_PREFIX ${api_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/flavien/inmoov_python3_ws/install/lib;/home/flavien/inmoov_python3_ws/devel/lib;/home/flavien/inmoov_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/inmoov/Desktop/DaVinciBot-InMoov-2020-2021/inmoov_ws/install/lib;/home/inmoov/Desktop/DaVinciBot-InMoov-2020-2021/inmoov_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

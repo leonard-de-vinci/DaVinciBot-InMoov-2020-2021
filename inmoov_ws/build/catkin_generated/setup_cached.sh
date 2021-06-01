@@ -7,5 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PATH='/opt/ros/melodic/bin:/home/flavien/.local/bin:/home/flavien/google-cloud-sdk/bin:/home/flavien/anaconda3/bin:/home/flavien/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
-export PWD='/home/flavien/inmoov_python3_ws/build'
+export PWD='/home/inmoov/Desktop/DaVinciBot-InMoov-2020-2021/inmoov_ws/build'

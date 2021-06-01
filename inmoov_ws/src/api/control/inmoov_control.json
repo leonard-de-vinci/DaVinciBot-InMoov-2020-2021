@@ -3,13 +3,13 @@
         "head": {
             "mouth": {
                 "servo": {
-                    "angle": 55
+                    "angle": 0
                 }
             }, 
             "eye": {
                 "right": {
                     "servo": {
-                        "angle": 99
+                        "angle": 0
                     }
                 }, 
                 "left": {
@@ -45,7 +45,7 @@
                 }, 
                 "muscle": {
                     "servo": {
-                        "angle": 150
+                        "angle": 0
                     }
                 }, 
                 "hand": {
@@ -96,7 +96,7 @@
                 }, 
                 "muscle": {
                     "servo": {
-                        "angle": 90
+                        "angle": 0
                     }
                 }, 
                 "hand": {
@@ -108,27 +108,27 @@
                     "finger": {
                         "middle": {
                             "servo": {
-                                "angle": 0
+                                "angle": 120
                             }
                         }, 
                         "ring": {
                             "servo": {
-                                "angle": 0
+                                "angle": 10
                             }
                         }, 
                         "pointer": {
                             "servo": {
-                                "angle": 0
+                                "angle": 120
                             }
                         }, 
                         "little": {
                             "servo": {
-                                "angle": 0
+                                "angle": 120
                             }
                         }, 
                         "thumb": {
                             "servo": {
-                                "angle": 0
+                                "angle": 10
                             }
                         }
                     }

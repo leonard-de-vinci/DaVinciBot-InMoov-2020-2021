@@ -11,7 +11,7 @@ from utils.json_utils import *
 
 class Config:
     def __init__(self):
-        self.pkg = rospkg.get_ros_paths()[1]
+        self.pkg = rospkg.get_ros_paths()[2]#1]
         self.control_json = {}
         self.paths = []
         self.load_config_files()

@@ -1,0 +1,17 @@
+<launch >
+    <node pkg="rosserial_server" type="socket_node" name="esp_hand_1">
+	<param name="port" value="11411"/>
+    </node>
+    <node pkg="rosserial_server" type="socket_node" name="esp_hand_2">
+	<param name="port" value="11412"/>
+    </node>
+    <node pkg="rosserial_server" type="socket_node" name="esp_hand_3">
+	<param name="port" value="11413"/>
+    </node>
+    <node pkg="rosserial_server" type="socket_node" name="esp_hand_4">
+	<param name="port" value="11414"/>
+    </node>
+    <node pkg="rosserial_server" type="socket_node" name="esp_hand_5">
+	<param name="port" value="11415"/>
+    </node>
+</launch>

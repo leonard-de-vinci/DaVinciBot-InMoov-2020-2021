@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include".split(';') if "${prefix}/i
 PROJECT_CATKIN_DEPENDS = "actionlib_msgs;roscpp;rospy;std_msgs".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "api"
-PROJECT_SPACE_DIR = "/home/flavien/inmoov_python3_ws/install"
+PROJECT_SPACE_DIR = "/home/inmoov/Desktop/DaVinciBot-InMoov-2020-2021/inmoov_ws/install"
 PROJECT_VERSION = "0.0.0"

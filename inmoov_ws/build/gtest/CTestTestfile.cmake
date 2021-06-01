@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
 # Source directory: /usr/src/googletest
-# Build directory: /home/flavien/inmoov_python3_ws/build/gtest
+# Build directory: /home/inmoov/Desktop/DaVinciBot-InMoov-2020-2021/inmoov_ws/build/gtest
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

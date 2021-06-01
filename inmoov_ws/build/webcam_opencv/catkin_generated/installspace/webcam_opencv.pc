@@ -1,8 +1,0 @@
-prefix=/home/flavien/inmoov_python3_ws/install
-
-Name: webcam_opencv
-Description: Description of webcam_opencv
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

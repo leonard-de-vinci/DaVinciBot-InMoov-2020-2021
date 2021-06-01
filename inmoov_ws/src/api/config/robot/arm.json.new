@@ -1,0 +1,218 @@
+{
+	"robot": {
+		"arm": {
+			"left": {
+				"shoulder": {
+					"servo": {
+						"pinPWM": 10,
+						"angle": {
+							"control": 87,
+							"min": 67,
+							"max": 160
+						}
+					}
+				},
+				"rotate": {
+					"servo": {
+						"pinPWM": 9,
+						"angle": {
+							"control": 100,
+							"min": 80,
+							"max": 140
+						}
+					}
+				},
+				"muscle": {
+					"servo": {
+						"pinPWM": 8,
+						"angle": {
+							"control": 0,
+							"min": 0,
+							"max": 0
+						}
+					}
+				},
+				"scapula": {
+					"servo": {
+						"pinPWM": 11,
+						"angle": {
+							"control": 5,
+							"min": -5,
+							"max": 45
+						}
+					}
+				},
+				"hand": {
+					"wirst": {
+						"servo": {
+							"pinPWM": 7,
+							"angle": {
+								"control": -130,
+								"min": 0,
+								"max": 130
+							}
+						}
+					},
+					"finger": {
+						"thumb": {
+							"servo": {
+								"pinPWM": 2,
+								"angle": {
+									"control": 150,
+									"min": 0,
+									"max": 150
+								}
+							}
+						},
+						"pointer": {
+							"servo": {
+								"pinPWM": 3,
+								"angle": {
+									"control": 150,
+									"min": 0,
+									"max": 150
+								}
+							}
+						},
+						"middle": {
+							"servo": {
+								"pinPWM": 4,
+								"angle": {
+									"control": 0,
+									"min": 0,
+									"max": 140
+								}
+							}
+						},
+						"ring": {
+							"servo": {
+								"pinPWM": 5,
+								"angle": {
+									"control": 0,
+									"min": 0,
+									"max": 130
+								}
+							}
+						},
+						"little": {
+							"servo": {
+								"pinPWM": 6,
+								"angle": {
+									"control": 150,
+									"min": 40,
+									"max": 150
+								}
+							}
+						}
+					}
+				}
+			},
+			"right": {
+				"shoulder": {
+					"servo": {
+						"pinPWM": 10,
+						"angle": {
+							"control": 0,
+							"min": 16,
+							"max": 50
+						}
+					}
+				},
+				"rotate": {
+					"servo": {
+						"pinPWM": 9,
+						"angle": {
+							"control": 0,
+							"min": 0,
+							"max": 0
+						}
+					}
+				},
+				"muscle": {
+					"servo": {
+						"pinPWM": 8,
+						"angle": {
+							"control": 0,
+							"min": 10,
+							"max": 20
+						}
+					}
+				},
+				"scapula": {
+					"servo": {
+						"pinPWM": 11,
+						"angle": {
+							"control": 0,
+							"min": 0,
+							"max": 50
+						}
+					}
+				},
+				"hand": {
+					"wirst": {
+						"servo": {
+							"pinPWM": 7,
+							"angle": {
+								"control": 150,
+								"min": 0,
+								"max": 150
+							}
+						}
+					},
+					"finger": {
+						"thumb": {
+							"servo": {
+								"pinPWM": 2,
+								"angle": {
+									"control": 0,
+									"min": 0,
+									"max": 145
+								}
+							}
+						},
+						"pointer": {
+							"servo": {
+								"pinPWM": 3,
+								"angle": {
+									"control": 0,
+									"min": 0,
+									"max": 150
+								}
+							}
+						},
+						"middle": {
+							"servo": {
+								"pinPWM": 4,
+								"angle": {
+									"control": 0,
+									"min": 0,
+									"max": 150
+								}
+							}
+						},
+						"ring": {
+							"servo": {
+								"pinPWM": 5,
+								"angle": {
+									"control": 0,
+									"min": 0,
+									"max": 130
+								}
+							}
+						},
+						"little": {
+							"servo": {
+								"pinPWM": 6,
+								"angle": {
+									"control": 0,
+									"min": 0,
+									"max": 150
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

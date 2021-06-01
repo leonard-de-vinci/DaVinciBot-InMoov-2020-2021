@@ -1,12 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/api_generate_messages_nodejs"
-  "/home/flavien/inmoov_python3_ws/devel/share/gennodejs/ros/api/msg/MoveAction.js"
-  "/home/flavien/inmoov_python3_ws/devel/share/gennodejs/ros/api/msg/MoveActionGoal.js"
-  "/home/flavien/inmoov_python3_ws/devel/share/gennodejs/ros/api/msg/MoveActionResult.js"
-  "/home/flavien/inmoov_python3_ws/devel/share/gennodejs/ros/api/msg/MoveActionFeedback.js"
-  "/home/flavien/inmoov_python3_ws/devel/share/gennodejs/ros/api/msg/MoveGoal.js"
-  "/home/flavien/inmoov_python3_ws/devel/share/gennodejs/ros/api/msg/MoveResult.js"
-  "/home/flavien/inmoov_python3_ws/devel/share/gennodejs/ros/api/msg/MoveFeedback.js"
+  "/home/inmoov/Desktop/DaVinciBot-InMoov-2020-2021/inmoov_ws/devel/share/gennodejs/ros/api/msg/MoveResult.js"
+  "/home/inmoov/Desktop/DaVinciBot-InMoov-2020-2021/inmoov_ws/devel/share/gennodejs/ros/api/msg/MoveActionGoal.js"
+  "/home/inmoov/Desktop/DaVinciBot-InMoov-2020-2021/inmoov_ws/devel/share/gennodejs/ros/api/msg/MoveAction.js"
+  "/home/inmoov/Desktop/DaVinciBot-InMoov-2020-2021/inmoov_ws/devel/share/gennodejs/ros/api/msg/MoveActionFeedback.js"
+  "/home/inmoov/Desktop/DaVinciBot-InMoov-2020-2021/inmoov_ws/devel/share/gennodejs/ros/api/msg/MoveFeedback.js"
+  "/home/inmoov/Desktop/DaVinciBot-InMoov-2020-2021/inmoov_ws/devel/share/gennodejs/ros/api/msg/MoveGoal.js"
+  "/home/inmoov/Desktop/DaVinciBot-InMoov-2020-2021/inmoov_ws/devel/share/gennodejs/ros/api/msg/MoveActionResult.js"
 )
 
 # Per-language clean rules from dependency scanning.
