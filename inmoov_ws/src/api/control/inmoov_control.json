@@ -1,11 +1,6 @@
 {
     "robot": {
         "head": {
-            "mouth": {
-                "servo": {
-                    "angle": 0
-                }
-            }, 
             "eye": {
                 "right": {
                     "servo": {
@@ -16,6 +11,11 @@
                     "servo": {
                         "angle": 0
                     }
+                }
+            }, 
+            "mouth": {
+                "servo": {
+                    "angle": 0
                 }
             }, 
             "neck": {
@@ -33,12 +33,12 @@
         }, 
         "arm": {
             "right": {
-                "shoulder": {
+                "scapula": {
                     "servo": {
                         "angle": 0
                     }
                 }, 
-                "scapula": {
+                "shoulder": {
                     "servo": {
                         "angle": 0
                     }
@@ -60,7 +60,7 @@
                                 "angle": 0
                             }
                         }, 
-                        "ring": {
+                        "little": {
                             "servo": {
                                 "angle": 0
                             }
@@ -70,7 +70,7 @@
                                 "angle": 0
                             }
                         }, 
-                        "little": {
+                        "ring": {
                             "servo": {
                                 "angle": 0
                             }
@@ -84,12 +84,12 @@
                 }
             }, 
             "left": {
-                "shoulder": {
+                "scapula": {
                     "servo": {
                         "angle": 0
                     }
                 }, 
-                "scapula": {
+                "shoulder": {
                     "servo": {
                         "angle": 0
                     }
@@ -108,27 +108,27 @@
                     "finger": {
                         "middle": {
                             "servo": {
-                                "angle": 120
-                            }
-                        }, 
-                        "ring": {
-                            "servo": {
-                                "angle": 10
-                            }
-                        }, 
-                        "pointer": {
-                            "servo": {
-                                "angle": 120
+                                "angle": 50
                             }
                         }, 
                         "little": {
                             "servo": {
-                                "angle": 120
+                                "angle": 50
+                            }
+                        }, 
+                        "pointer": {
+                            "servo": {
+                                "angle": 50
                             }
                         }, 
                         "thumb": {
                             "servo": {
-                                "angle": 10
+                                "angle": 100
+                            }
+                        }, 
+                        "ring": {
+                            "servo": {
+                                "angle": 100
                             }
                         }
                     }

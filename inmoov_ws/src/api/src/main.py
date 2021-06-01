@@ -7,14 +7,15 @@ import ttk
 
 control_json = JSON_generator("../control/inmoov_control.json")
 control_json.reset()
+control_json.save_json()
 
 def open_hand():
     control_dict = {
         "robot/arm/left/hand/finger/middle/servo/angle": 100,
-        "robot/arm/left/hand/finger/ring/servo/angle": 50,
+        "robot/arm/left/hand/finger/little/servo/angle": 50,
         "robot/arm/left/hand/finger/pointer/servo/angle": 100,
-        "robot/arm/left/hand/finger/little/servo/angle": 100,
-        "robot/arm/left/hand/finger/thumb/servo/angle": 50,
+        "robot/arm/left/hand/finger/thumb/servo/angle": 100,
+        "robot/arm/left/hand/finger/ring/servo/angle": 50,
     }
     control_json.change_values(control_dict)
     control_json.save_json()
@@ -22,10 +23,10 @@ def open_hand():
 def close_hand():
     control_dict = {
         "robot/arm/left/hand/finger/middle/servo/angle": 50,
-        "robot/arm/left/hand/finger/ring/servo/angle": 100,
+        "robot/arm/left/hand/finger/little/servo/angle": 100,
         "robot/arm/left/hand/finger/pointer/servo/angle": 50,
-        "robot/arm/left/hand/finger/little/servo/angle": 50,
-        "robot/arm/left/hand/finger/thumb/servo/angle": 100,
+        "robot/arm/left/hand/finger/thumb/servo/angle": 50,
+        "robot/arm/left/hand/finger/ring/servo/angle": 100,
     }
     control_json.change_values(control_dict)
     control_json.save_json()
@@ -151,33 +152,4 @@ root.mainloop()
 
 #def __main__():
     
-"""
-    control_json = JSON_generator("../control/inmoov_control.json")
-
-    # Creating tkinter window
-    window = tk.Tk()
-    window.geometry('600x600')
-    # Label
-    ttk.Label(window, text = "Select the Month :", 
-            font = ("Arial", 10)).grid(column = 0, 
-            row = 15, padx = 10, pady = 25)
-
-    n = tk.StringVar()
-    monthchoosen = ttk.Combobox(window, width = 27,state="readonly", 
-                                textvariable = n)
-
-    # Adding combobox drop down list
-    monthchoosen['values'] = tuple("Thumb",
-                                   "Index",
-                                   "Middle",
-                                   "Ring",
-                                   "Pinky")
-
-    monthchoosen.grid(column = 1, row = 15)
-
-    # Shows february as a default value
-    monthchoosen.current(1)
-    window.mainloop()"""
-#__main__()
-
 
