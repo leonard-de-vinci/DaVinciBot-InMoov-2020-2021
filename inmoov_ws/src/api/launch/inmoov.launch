@@ -1,4 +1,4 @@
-<launch >
-	<include file="esp.launch"/>
-	<include file="api.launch"/>
+<launch>
+	<include file="$(find api)/launch/esp.launch"/>
+	<include file="$(find api)/launch/api.launch"/>
 </launch>

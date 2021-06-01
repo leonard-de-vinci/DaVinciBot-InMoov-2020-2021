@@ -14,4 +14,10 @@
     <node pkg="rosserial_server" type="socket_node" name="esp_hand_5">
 	<param name="port" value="11415"/>
     </node>
+    <node pkg="rosserial_server" type="socket_node" name="esp_neck">
+	<param name="port" value="11416"/>
+    </node>
+    <node pkg="rosserial_server" type="socket_node" name="esp_eyes">
+	<param name="port" value="11417"/>
+    </node>
 </launch>
