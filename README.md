@@ -6,16 +6,15 @@
 ```
 This is an adaptation of ROS-serial-arduino to run on the ESP8266, a small and efficient chip, with WiFi instead of wired USB UART cable, based on http://answers.ros.org/users/1034/ahendrix/ proposed solution for Arduino with WiFi shield.
 
-**Inmoov Control**
-  
-To access to the motherboard (jetson TX2), you can use ssh connection. Please follow these simple steps :
+**InMoov Control**
+You can control the humanoid robot in different ways. If you have install everything on InMoov's back, you can simply use Secure Shell Protocol (SSH) on your computer:
+```ssh inmoov@<ipaddress>``` to access to the Jetson motherboard (in general the Jetson's IPAdress is : 172.21.72.156)
+If you want to exit the session, type ```exit``` 
+But you must configure the Jetson TX2 once by [logging in automatically](https://help.ubuntu.com/stable/ubuntu-help/user-autologin.html.en) and editing the bash shell startup file.
+Please follow these simple steps :
 On Jetson TX2:
 - ```sudo systemctl start ssh``` to start ssh
 - ```ifconfig -a``` and search for the inet address
-
-On your computer:
-- ```ssh inmoov@<ipaddress>``` to access to the Jetson (in general the Jetson IPAdresse is : 172.21.72.156)
-If you want to exit the session, type ```exit``` 
  
 **ESP8266 NodeMCU board**
 
